@@ -3,7 +3,7 @@ Date: May 21, 2025
 
 **License**
 
-Robokeytags Specification v1.0 is licensed under the Creative Commons
+Robokeytags Tags Specification v1.0 is licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0). You are free to use,
 adapt, and distribute this specification; even commercially; without
 attribution in your project files. Inclusion of reference tags such as:
@@ -550,7 +550,7 @@ declarations**. Tags must remain clean and literal.
 
 -   Tag changes should be reviewed in PRs.
 
--   Robokeytags tags—especially 🧩 tags—are not just comments; they are
+-   Robokeytags tags 🧩 tags—are not just comments; they are
     structured metadata with functional impact on tooling and
     automation. As such, they should be treated as first-class citizens
     in the codebase.
@@ -710,7 +710,7 @@ time, without conflicting with human or tool-managed sections.
 
 **Appendix A: Linter Rules and Anti-Patterns**
 
-To support consistent and predictable use of PuzzlePins, tools SHOULD
+To support consistent and predictable use of Robokeytags, tools SHOULD
 implement the following linting rules and heuristics:
 
 **A.1 Tag Uniqueness**
