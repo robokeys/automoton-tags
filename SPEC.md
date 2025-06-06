@@ -227,7 +227,7 @@ https://github.com/robokeys/robokeytags/SPEC.md
 // \[📌 Note: For detailed information on the normalization algorithm
 see wiki/normalize.md\]
 
-// \[📌 Note: This file's metadata conforms to PuzzlePins v1.0.\]
+// \[📌 Note: This file's metadata conforms to Robokeytags v1.0.\]
 
 // \[/🧩 File Info\]
 
