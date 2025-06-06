@@ -1,24 +1,24 @@
-Automotan Tags Specification - Version 1.0  
+Robokeytags Specification - Version 1.0  
 Date: May 21, 2025
 
 **License**
 
-Automotan Tags Specification v1.0 is licensed under the Creative Commons
+Robokeytags Specification v1.0 is licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0). You are free to use,
 adapt, and distribute this specification; even commercially; without
 attribution in your project files. Inclusion of reference tags such as:
 
-// automotan-tags\_version: 1.0
+// robokeytags\_version: 1.0
 
-// automotan-tags\_specification\_url:
-https://github.com/robokeys/puzzle-pins/SPEC.md
+// robokeytags\_specification\_url:
+https://github.com/robokeys/robokeytags/SPEC.md
 
 is not required but encouraged for discoverability and clarity, but some
 tools may use this information.
 
 **1. Abstract**
 
-Automotan Tags is a comment-based tagging system for source code and text
+Robokeytags is a comment-based tagging system for source code and text
 documents, designed with a tooling-first philosophy. It enhances
 clarity, interaction, and collaboration between human developers, AI
 tools, code generators, and other automated systems.
@@ -219,10 +219,10 @@ automation, versioning, licensing, authorship, and state tracking.
 
 // editable: no
 
-// puzzlepins\_version: 1.0
+// robokeytags\_version: 1.0
 
-// puzzlepins\_specification\_url:
-https://github.com/robokeys/puzzle-pins/SPEC.md
+// robokeytags\_specification\_url:
+https://github.com/robokeys/robokeytags/SPEC.md
 
 // \[📌 Note: For detailed information on the normalization algorithm
 see wiki/normalize.md\]
@@ -491,7 +491,7 @@ ambiguity. The following format and rules apply:
 
 **Clarification:**
 
-Automotan Tags supports indexed disambiguation of duplicate tag paths **only
+Robokeytags supports indexed disambiguation of duplicate tag paths **only
 in global references**, such as
 src/lib/api.ts::UserEndpoint\[2\]/TokenSection. This indexing is a
 tool-side resolution strategy and is **not valid inside tag
@@ -550,7 +550,7 @@ declarations**. Tags must remain clean and literal.
 
 -   Tag changes should be reviewed in PRs.
 
--   PuzzlePins tags—especially 🧩 tags—are not just comments; they are
+-   Robokeytags tags—especially 🧩 tags—are not just comments; they are
     structured metadata with functional impact on tooling and
     automation. As such, they should be treated as first-class citizens
     in the codebase.
@@ -589,7 +589,7 @@ declarations**. Tags must remain clean and literal.
 
 **10. AI-Generated Annotations (🤖 Tags)**
 
-Automotan Tags also supports a special 🤖 marker (with an ASCII backup of
+Robokeytags also supports a special 🤖 marker (with an ASCII backup of
 \*-&lt; ) to indicate AI-authored annotations that are neither
 structural (🧩) nor human notes (📌), but rather machine-inferred
 metadata, suggestions, or insights. These tags are intended to be
@@ -636,7 +636,7 @@ metadata and situations where the machine origin is especially relevant.
 
 **10.3.1 Human-to-AI 🤖 Notes**
 
-Automotan Tags allows humans to leave structured notes *to AI tools* using
+Robokeytags allows humans to leave structured notes *to AI tools* using
 the from=human property inside a 🤖 tag. This provides a clean,
 machine-parseable way to:
 
@@ -859,5 +859,5 @@ implement the following linting rules and heuristics:
 
     -   Highlight ambiguous paths that trigger fallback behavior
 
-These rules help ensure that PuzzlePins tags are both human-legible and
+These rules help ensure that PRobokeytags tags are both human-legible and
 reliably machine-processed.
