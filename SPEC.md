@@ -1,16 +1,16 @@
-PuzzlePins Specification - Version 1.0  
+Automotan Tags Specification - Version 1.0  
 Date: May 21, 2025
 
 **License**
 
-PuzzlePins Specification v1.0 is licensed under the Creative Commons
+Automotan Tags Specification v1.0 is licensed under the Creative Commons
 Attribution 4.0 International License (CC BY 4.0). You are free to use,
 adapt, and distribute this specification; even commercially; without
 attribution in your project files. Inclusion of reference tags such as:
 
-// puzzlepins\_version: 1.0
+// automotan-tags\_version: 1.0
 
-// puzzlepins\_specification\_url:
+// automotan-tags\_specification\_url:
 https://github.com/robokeys/puzzle-pins/SPEC.md
 
 is not required but encouraged for discoverability and clarity, but some
@@ -18,13 +18,13 @@ tools may use this information.
 
 **1. Abstract**
 
-PuzzlePins is a comment-based tagging system for source code and text
+Automotan Tags is a comment-based tagging system for source code and text
 documents, designed with a tooling-first philosophy. It enhances
 clarity, interaction, and collaboration between human developers, AI
 tools, code generators, and other automated systems.
 
 By standardizing metadata, structural delineation, and annotation,
-PuzzlePins:
+Automotan Tags:
 
 -   Enables robust automation without sacrificing human oversight.
 
@@ -440,7 +440,7 @@ Example of a minimal tool-generated block:
 **6. Global Project Identifiers**
 
 Global Project Identifiers provide a unique way to reference any
-PuzzlePin tag across an entire project. Ideally, all tag paths (e.g.,
+Automotan Tags tag across an entire project. Ideally, all tag paths (e.g.,
 form/login/username) within a single file should be unique to avoid
 ambiguity. The following format and rules apply:
 
@@ -491,7 +491,7 @@ ambiguity. The following format and rules apply:
 
 **Clarification:**
 
-PuzzlePins supports indexed disambiguation of duplicate tag paths **only
+Automotan Tags supports indexed disambiguation of duplicate tag paths **only
 in global references**, such as
 src/lib/api.ts::UserEndpoint\[2\]/TokenSection. This indexing is a
 tool-side resolution strategy and is **not valid inside tag
@@ -589,7 +589,7 @@ declarations**. Tags must remain clean and literal.
 
 **10. AI-Generated Annotations (🤖 Tags)**
 
-PuzzlePins also supports a special 🤖 marker (with an ASCII backup of
+Automotan Tags also supports a special 🤖 marker (with an ASCII backup of
 \*-&lt; ) to indicate AI-authored annotations that are neither
 structural (🧩) nor human notes (📌), but rather machine-inferred
 metadata, suggestions, or insights. These tags are intended to be
@@ -636,7 +636,7 @@ metadata and situations where the machine origin is especially relevant.
 
 **10.3.1 Human-to-AI 🤖 Notes**
 
-PuzzlePins allows humans to leave structured notes *to AI tools* using
+Automotan Tags allows humans to leave structured notes *to AI tools* using
 the from=human property inside a 🤖 tag. This provides a clean,
 machine-parseable way to:
 
