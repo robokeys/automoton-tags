@@ -859,5 +859,5 @@ implement the following linting rules and heuristics:
 
     -   Highlight ambiguous paths that trigger fallback behavior
 
-These rules help ensure that PRobokeytags tags are both human-legible and
+These rules help ensure that Robokeytags tags are both human-legible and
 reliably machine-processed.
