@@ -7,4 +7,4 @@ but it does far more it contains "robot" tags giving AI space to make its own no
 allowing it to effectively extend its context window or different AI agents to collaborate without knowledge of each other. 
 It also contains "pin" tags which contain notes made by humans not intended for tools.
 
-See https://github.com/robokeys/robokeytags/SPEC.md for teh current specification.
+See https://github.com/robokeys/robokeytags/SPEC.md for the current specification.
