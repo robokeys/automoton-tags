@@ -11,7 +11,7 @@ attribution in your project files. Inclusion of reference tags such as:
 // robokeytags\_version: 1.0
 
 // robokeytags\_specification\_url:
-https://github.com/robokeys/robokeytags/SPEC.md
+https://github.com/robokeys/robokeytags/blob/main/SPEC.md
 
 is not required but encouraged for discoverability and clarity, but some
 tools may use this information.
